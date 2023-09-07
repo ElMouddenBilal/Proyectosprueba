@@ -1,0 +1,55 @@
+body {
+    background-image: url(azul.avif);
+    position: relative;
+    margin: 250px 0 200px 430px;
+}
+
+.div1 {
+    background-color: white;
+    width: 300px;
+    height: 330px;
+    border-radius: 15px;
+    display:inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.victor {
+    border-radius: 70px;
+    position: absolute;
+    left: 110px;
+    top: 51px;
+}
+
+.victor2 {
+    border-radius: 70px;
+    position: absolute;
+    left: 410px;
+    top: 51px;
+}
+
+.victor3 {
+    border-radius: 70px;
+    position: absolute;
+    left: 710px;
+    top: 55px;
+}
+
+.div2 {
+    position: relative;
+    top: 30px;
+}
+
+span, b, p{color: #8E9599;}
+
+.div4, .div5{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1px; /* Reducimos el margen inferior */
+}
+
+
+h6 {
+    position: relative;
+    margin: 0; /* Quitamos el margen predeterminado para h6 */
+}
