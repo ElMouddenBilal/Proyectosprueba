@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav>
+        <button class="boton" onclick="accion()">Menú</button>
+        <a href="#" class="nave desaparece">Inicio</a>
+        <a href="#" class="nave desaparece">Nosotros</a>
+        <a href="#" class="nave desaparece">Servicios</a>
+        <a href="#" class="nave desaparece">Contacto</a>
+    </nav>
+
+    <script>
+        function accion() {
+            let ancla = document.getElementsByClassName("nave");
+            for (let i = 0; i < ancla.length; i++) {
+                ancla[i].classList.toggle("desaparece");
+            }
+        }
+    </script>
+</body>
+</html>
